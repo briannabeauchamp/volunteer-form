@@ -8,26 +8,27 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
 </head>
 <body>
   <section>
-    <div>
+    <header>
       <h1>Apply to be a tree planter</h1>
       <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
-    </div>
+    </header>
     <form>
       <fieldset>
         <legend>Personal details</legend>
         <div>
           <label for="name">Full name</label>
           <input id="name" required>
-          <p>Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+          <p class="italic">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
         </div>
 
         <div>
           <label for="nickname">What should we call you?</label>
           <input id="nickname">
-          <p>What all your friends call you, e.g. “Liz”.</p>
+          <p class="italic">What all your friends call you, e.g. “Liz”.</p>
         </div>
 
         <div>
@@ -58,7 +59,7 @@
         </div>
 
         <div>
-          <label for="tel">Phone number (optional)</label>
+          <label for="tel">Phone number <span class="italic">(optional)</span></label>
           <input id="tel" type="tel">
         </div>
       </fieldset>
@@ -185,12 +186,14 @@
       </fieldset>
 
       <fieldset>
-        <legend>Please let us know any comments or questions you may have.(optional)</legend>
+        <legend>Please let us know any comments or questions you may have.<span class="italic">(optional)</span></legend>
         <textarea id="comment"></textarea>
       </fieldset>
 
       <button class="btn" type="submit">Apply</button>
-      <p><small>© Tree Hugger International Organization</small><p>
+      <footer>
+        <p><small>© Tree Hugger International Organization</small><p>
+      </footer>
         <div>
           <input type="hidden" name="_subject" value="Volunteer Sign-up">
         </div>

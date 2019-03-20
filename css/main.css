@@ -5,3 +5,31 @@ label {
 fieldset {
   border: 0;
 }
+
+header {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+select, input {
+  border-color: #6e8c62;
+  display: block;
+}
+
+html {
+  font-family: "Noto Serif", serif;
+}
+
+.btn {
+  background-color: #6e8c62;
+  border-color: #6e8c62;
+}
+
+footer {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+span {
+  color: #70ad55;
+}
