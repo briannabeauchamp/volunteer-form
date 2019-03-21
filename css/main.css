@@ -35,7 +35,7 @@ span {
 }
 
 hr {
-  border-color: #6e8c62;
+  border-color: #70ad55;
 }
 
 input[type="checkbox"] + label::before {
@@ -44,4 +44,9 @@ input[type="checkbox"] + label::before {
 
 input[type="radio"] + label::before {
   border-color: #6e8c62;
+}
+
+textarea {
+  min-height: 9em;
+  border-color: #70ad55;
 }
