@@ -39,7 +39,7 @@
         <div>
           <label for="size">T-shirt size</label>
           <select id="size">
-            <option>Select a t-shirt size</option>
+            <option value="">Select a t-shirt size</option>
             <option>Fitted: XS</option>
             <option>Fitted: S</option>
             <option>Fitted: M</option>
@@ -78,7 +78,7 @@
         <div>
           <label for="province">Province</label>
           <select id="province">
-            <option>Select a province</option>
+            <option value="">Select a province</option>
             <option>Alberta</option>
             <option>British Columbia</option>
             <option>Manitoba</option>
@@ -104,85 +104,85 @@
       <fieldset>
         <legend>What activities are you interested in helping with?</legend>
         <div>
-          <input type="checkbox">
-          <label for="checklist">Digging holes</label>
+          <input id="digging" type="checkbox">
+          <label for="digging">Digging holes</label>
 
-          <input type="checkbox">
-          <label for="checklist">Getting dirty</label>
+          <input id="dirty" type="checkbox">
+          <label for="dirty">Getting dirty</label>
 
-          <input type="checkbox">
-          <label for="checklist">Lifting heavy objects</label>
+          <input id="lifting" type="checkbox">
+          <label for="lifting">Lifting heavy objects</label>
 
-          <input type="checkbox">
-          <label for="checklist">Driving people</label>
+          <input id="driving" type="checkbox">
+          <label for="driving">Driving people</label>
 
-          <input type="checkbox">
-          <label for="checklist">Transporting trees</label>
+          <input id="trees" type="checkbox">
+          <label for="trees">Transporting trees</label>
 
-          <input type="checkbox">
-          <label for="checklist">Taking photos</label>
+          <input id="photos" type="checkbox">
+          <label for="photos">Taking photos</label>
 
-          <input type="checkbox">
-          <label for="checklist">Online publishing</label>
+          <input id="online" type="checkbox">
+          <label for="online">Online publishing</label>
 
-          <input type="checkbox">
-          <label for="checklist">Managing people</label>
+          <input id="people" type="checkbox">
+          <label for="people">Managing people</label>
         </div>
       </fieldset>
       <fieldset>
         <legend>Do you have any experience with the following?</legend>
         <div>
-          <input type="checkbox">
-          <label for="checklist">Shovels</label>
+          <input id="shovels" type="checkbox">
+          <label for="shovels">Shovels</label>
 
-          <input type="checkbox">
-          <label for="checklist">Hand-held GPS</label>
+          <input id="gps" type="checkbox">
+          <label for="gps">Hand-held GPS</label>
 
-          <input type="checkbox">
-          <label for="checklist">Writing & blogging</label>
+          <input id="blogging" type="checkbox">
+          <label for="blogging">Writing & blogging</label>
 
-          <input type="checkbox">
-          <label for="checklist">Photography</label>
+          <input id="photography" type="checkbox">
+          <label for="photography">Photography</label>
 
-          <input type="checkbox">
-          <label for="checklist">Trail & hill climbing</label>
+          <input id="trail" type="checkbox">
+          <label for="trail">Trail & hill climbing</label>
 
-          <input type="checkbox">
-          <label for="checklist">Bush craft</label>
+          <input id="bush" type="checkbox">
+          <label for="bush">Bush craft</label>
 
-          <input type="checkbox">
-          <label for="checklist">ATVs</label>
+          <input id="atvs" type="checkbox">
+          <label for="atvs">ATVs</label>
 
-          <input type="checkbox">
-          <label for="checklist">Plant identification</label>
+          <input id="plant" type="checkbox">
+          <label for="plant">Plant identification</label>
 
-          <input type="checkbox">
-          <label for="checklist">Special event planning</label>
+          <input id="event" type="checkbox">
+          <label for="event">Special event planning</label>
 
-          <input type="checkbox">
-          <label for="checklist">Speaking to groups</label>
+          <input id="groups" type="checkbox">
+          <label for="groups">Speaking to groups</label>
         </div>
       </fieldset>
       <fieldset>
         <legend>Do you have a valid driver’s license?</legend>
-        <input type="radio" name="license">
-        <label for="radio">Yes</label>
-        <input type="radio" name="license">
-        <label for="radio">No</label>
+        <input type="radio" name="license" id="yes">
+        <label for="yes">Yes</label>
+        <input type="radio" name="license" id="no">
+        <label for="no">No</label>
       </fieldset>
       <fieldset>
         <legend>Do you have a pick-up truck you’d be willing to use?</legend>
-        <input type="radio" name="truck">
-        <label for="radio">Yes</label>
-        <input type="radio" name="truck">
-        <label for="radio">No</label>
+        <input type="radio" name="truck" id="oui">
+        <label for="oui">Yes</label>
+        <input type="radio" name="truck" id="non">
+        <label for="non">No</label>
       </fieldset>
       <fieldset>
         <legend>Do you have up-to-date first-aid certification?</legend>
-        <input type="radio" name="certification">
-        <label for="radio">Yes</label>
-        <input type="radio" name="certification">
-        <label for="radio">No</label>
+        <input type="radio" name="certification" id="yep">
+        <label for="yep">Yes</label>
+        <input type="radio" name="certification" id="nope">
+        <label for="nope">No</label>
       </fieldset>
 
       <fieldset>
@@ -192,7 +192,7 @@
 
       <button class="btn" type="submit">Apply</button>
       <footer>
-        <p><small>© Tree Hugger International Organization</small><p>
+        <p><small>© Tree Hugger International Organization</small></p>
       </footer>
         <div>
           <input type="hidden" name="_subject" value="Volunteer Sign-up">
